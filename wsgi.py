@@ -1,3 +1,6 @@
+# wsgi.py (root)
 from app import create_app
 
-app = create_app()  # Gunicorn will find this
+# Export both names so gunicorn can use either wsgi:app or wsgi:application
+application = create_app()
+app = application
