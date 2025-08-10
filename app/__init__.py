@@ -11,5 +11,4 @@ def create_app():
     def welcome():
         return {"message": "Welcome to my Alkitab API!"}, 200
 
-
     return app
