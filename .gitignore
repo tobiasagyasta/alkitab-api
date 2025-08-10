@@ -1,0 +1,49 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# Byte-compiled / compiled files
+*.pyo
+*.pyd
+*.pdb
+
+# Logs
+*.log
+
+# MacOS / Windows junk files
+.DS_Store
+Thumbs.db
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Coverage / test outputs
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+# Optional: Ignore large local data files
+# lib/*.json
