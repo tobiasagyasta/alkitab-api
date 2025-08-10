@@ -1,6 +1,6 @@
 # 📖 API Alkitab Terjemahan Baru (Flask)
 
-Proyek ini menyediakan API Alkitab Terjemahan Baru (PL & PB) dalam format JSON yang dapat diakses melalui HTTP endpoint. Dibangun dengan Python Flask, siap untuk dijalankan secara lokal atau di-deploy ke Railway.
+Proyek ini menyediakan API Alkitab Terjemahan Baru (PL & PB) dalam format JSON yang dapat diakses melalui HTTP endpoint. Dibangun dengan Python Flask, siap untuk dijalankan secara lokal atau di-deploy.
 
 ---
 
@@ -76,29 +76,6 @@ API akan berjalan di [http://127.0.0.1:5000](http://127.0.0.1:5000)
   ```http
   GET /api/pl/kejadian/1/3-5
   ```
-
----
-
-## ☁️ Deploy ke Railway
-
-1. **Login ke Railway:**
-   ```bash
-   railway login
-   ```
-2. **Buat project baru:**
-   ```bash
-   railway init
-   ```
-3. **Deploy:**
-   ```bash
-   railway up
-   ```
-
-Pastikan file `requirements.txt` berisi semua dependensi, dan `Procfile` seperti berikut:
-
-```makefile
-web: python app.py
-```
 
 ---
 
