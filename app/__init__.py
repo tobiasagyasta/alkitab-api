@@ -7,4 +7,9 @@ def create_app():
     # Register Blueprints
     app.register_blueprint(bible_bp, url_prefix="/api")
 
+    @app.route("/", methods=["GET"])
+    def welcome():
+        return {"message": "Welcome to my Alkitab API!"}, 200
+
+
     return app
